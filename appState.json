@@ -1,0 +1,89 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "c887c4d2-8ad2-42d9-afda-9e27e093a090": {
+        "id": "c887c4d2-8ad2-42d9-afda-9e27e093a090",
+        "parent": null,
+        "name": "gcp-project.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "gcp-project.js",
+        "cursor": {
+          "lineNumber": 2,
+          "column": 5
+        },
+        "config": {
+          "runtime": "nodejs8",
+          "timeout": 60,
+          "memory": 128,
+          "triggerType": 0,
+          "name": "gcpProject"
+        },
+        "triggers": [
+          {
+            "resourceName": "http-trigger",
+            "config": {}
+          }
+        ]
+      },
+      "55fa58b7-8a69-4d0a-ae0d-dcbe6ef7f387": {
+        "id": "55fa58b7-8a69-4d0a-ae0d-dcbe6ef7f387",
+        "parent": null,
+        "name": "index.js",
+        "type": "JS_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": false,
+        "filePath": "index.js"
+      },
+      "1c0cab6e-72f3-4fa8-ba6a-3db384ad11ef": {
+        "id": "1c0cab6e-72f3-4fa8-ba6a-3db384ad11ef",
+        "parent": null,
+        "name": "main.py",
+        "type": "PYTHON_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": false,
+        "filePath": "main.py"
+      }
+    },
+    "openFiles": [
+      "c887c4d2-8ad2-42d9-afda-9e27e093a090"
+    ],
+    "currentFileId": "c887c4d2-8ad2-42d9-afda-9e27e093a090",
+    "resources": {
+      "http-trigger": {
+        "name": "http-trigger",
+        "type": "http-trigger",
+        "config": {}
+      }
+    },
+    "customTemplate": {
+      "dialect": "CloudFormation",
+      "definitions": null
+    },
+    "envVariables": [],
+    "packageJSON": {
+      "dependencies": {}
+    }
+  },
+  "PROJECT_META": {
+    "projectName": "gcp-project",
+    "projectDescription": "",
+    "projectVersion": "1.0.0",
+    "projectRegion": "europe-west1",
+    "platform": "GCP",
+    "language": "nodejs",
+    "platformRegions": {},
+    "lastSave": 1586588975683
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "gcp-project",
+      "url": "https://github.com/nzpopa/gcp-project"
+    }
+  }
+}
